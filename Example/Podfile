@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'EaseAttributedBuilder_Example' do
+  pod 'EaseAttributedBuilder', :path => '../'
+
+  target 'EaseAttributedBuilder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
