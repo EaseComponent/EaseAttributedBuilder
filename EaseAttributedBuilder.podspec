@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EaseAttributedBuilder'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EaseAttributedBuilder.'
+  s.summary          = '使用 EaseAttributedBuilder，让创建属性字符串更简单'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Yrocky/EaseAttributedBuilder'
+  s.homepage         = 'https://github.com/EaseComponent/EaseAttributedBuilder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Yrocky' => 'yangheng@ibobei.cn' }
-  s.source           = { :git => 'https://github.com/Yrocky/EaseAttributedBuilder.git', :tag => s.version.to_s }
+  s.author           = { 'Yrocky' => '983272765@qq.com' }
+  s.source           = { :git => 'https://github.com/EaseComponent/EaseAttributedBuilder.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

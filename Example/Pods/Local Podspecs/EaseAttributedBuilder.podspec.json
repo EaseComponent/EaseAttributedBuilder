@@ -1,0 +1,22 @@
+{
+  "name": "EaseAttributedBuilder",
+  "version": "0.1.0",
+  "summary": "A short description of EaseAttributedBuilder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/EaseComponent/EaseAttributedBuilder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yrocky": "983272765@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/EaseComponent/EaseAttributedBuilder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EaseAttributedBuilder/Classes/**/*"
+}

@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B1365262AA4CF19B54222634999253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0BE200D9AC36FEA7DEBE3BAFC5BCE11A /* EaseAttributedBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE3357285366AB2F6D8B4F8683D29A1 /* EaseAttributedBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12540294FA83AD722E53BF7BD7B97684 /* Pods-EaseAttributedBuilder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B200D096FD475F2E97CBADACFBCFEE9 /* Pods-EaseAttributedBuilder_Tests-dummy.m */; };
+		1B91767B82E0F7E98DE2CAC053CD9F87 /* Pods-EaseAttributedBuilder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AADFA113E355772CCBAE4A73C4161 /* Pods-EaseAttributedBuilder_Example-dummy.m */; };
+		247A458EFDA157E2DD2CA88364E77BF1 /* EaseAttributedBuilder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D454B0A8C8F34C9E0E7DE54C366E9C /* EaseAttributedBuilder-dummy.m */; };
+		587B6B05AC4FF29744E9899273D56471 /* EaseRXBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A766BDE37860C70AE53074CE5FDB59 /* EaseRXBuilder.m */; };
+		5CD33A1D3E9E46C644AB68671645BE9C /* Pods-EaseAttributedBuilder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F178859C736C6F5D24A476DC0BF54451 /* Pods-EaseAttributedBuilder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68483FA4002BCF19121808F1A429EFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7CF6D5A8575379620B5BB5D9F3497BB9 /* EaseAttributedBuilder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF25FC405071E7543868FBDC44A1CC8 /* EaseAttributedBuilder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F92361082C0C9C626022B1E54B2B4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A747A6F8B176F06A9834DF5C192BF13E /* EaseAttributedBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D78DC6A54441082B0706E8B295B3C145 /* EaseAttributedBuilder.m */; };
+		AD9F77DDCC22AA1D60E3E3EC65A7DA09 /* Pods-EaseAttributedBuilder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1235BADE21136A1118CF9976A2B7BA16 /* Pods-EaseAttributedBuilder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04293EE4726875C10A4F317FFB06282 /* EaseRXBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F6F221633D00A99C520F93385BC500 /* EaseRXBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		620B9DFC0BEAE5C0ECAF1CF6E4C4280D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 098D14306B63BE320EBF3C23782028F4;
+			remoteInfo = "Pods-EaseAttributedBuilder_Example";
+		};
+		85BF75036D5323DE15F3F29426CBF611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E558DEDC48967C3D9E5254A2492023B;
+			remoteInfo = EaseAttributedBuilder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EEFA486FA16623A33A138262261919 /* Pods-EaseAttributedBuilder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EaseAttributedBuilder_Example.modulemap"; sourceTree = "<group>"; };
+		09345523F7DE7B8D51942F4F4E0630AF /* EaseAttributedBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EaseAttributedBuilder.framework; path = EaseAttributedBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1235BADE21136A1118CF9976A2B7BA16 /* Pods-EaseAttributedBuilder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EaseAttributedBuilder_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F2B49CAEA05E828A77CBE224E8E8574 /* EaseAttributedBuilder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EaseAttributedBuilder-Info.plist"; sourceTree = "<group>"; };
+		206CF11C80B189AF576B50521123F394 /* Pods-EaseAttributedBuilder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseAttributedBuilder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DF178631BBB675ABC4A8B2F0173F962 /* Pods_EaseAttributedBuilder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EaseAttributedBuilder_Tests.framework; path = "Pods-EaseAttributedBuilder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40D2FAFBD4BC759159AC11B1B963CB70 /* EaseAttributedBuilder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EaseAttributedBuilder.modulemap; sourceTree = "<group>"; };
+		4B200D096FD475F2E97CBADACFBCFEE9 /* Pods-EaseAttributedBuilder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EaseAttributedBuilder_Tests-dummy.m"; sourceTree = "<group>"; };
+		596C58C8F5F201E182830A7B6326B898 /* Pods-EaseAttributedBuilder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseAttributedBuilder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61D8EC57375DD77011974F27EC7B82B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		62CFF0017424C6307A03A260BCABF352 /* Pods-EaseAttributedBuilder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseAttributedBuilder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		66DF07B5AF48CB30B95B9B7E7DC735CC /* Pods_EaseAttributedBuilder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EaseAttributedBuilder_Example.framework; path = "Pods-EaseAttributedBuilder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE3357285366AB2F6D8B4F8683D29A1 /* EaseAttributedBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseAttributedBuilder.h; path = EaseAttributedBuilder/Classes/EaseAttributedBuilder.h; sourceTree = "<group>"; };
+		6CF25FC405071E7543868FBDC44A1CC8 /* EaseAttributedBuilder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EaseAttributedBuilder-umbrella.h"; sourceTree = "<group>"; };
+		6E078CD8B7AAC3D51ADB5AFB8AA4B5FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F56DF34F2522EAEE7756C6D915CEA09 /* Pods-EaseAttributedBuilder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseAttributedBuilder_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74D454B0A8C8F34C9E0E7DE54C366E9C /* EaseAttributedBuilder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EaseAttributedBuilder-dummy.m"; sourceTree = "<group>"; };
+		8A14D53B5C9BB86F87908A51A8560F6C /* EaseAttributedBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EaseAttributedBuilder.release.xcconfig; sourceTree = "<group>"; };
+		8BC490C38A1712ECE0F541F749C5D03F /* Pods-EaseAttributedBuilder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EaseAttributedBuilder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CFC0E5C88FC1914656259C7C97C18AE /* EaseAttributedBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EaseAttributedBuilder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		909315B1C91996B89BFF2789C07CDC2E /* EaseAttributedBuilder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EaseAttributedBuilder.debug.xcconfig; sourceTree = "<group>"; };
+		92BED2B5FAF67318D7653E2F8DF5F82D /* Pods-EaseAttributedBuilder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EaseAttributedBuilder_Tests.modulemap"; sourceTree = "<group>"; };
+		947AADFA113E355772CCBAE4A73C4161 /* Pods-EaseAttributedBuilder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EaseAttributedBuilder_Example-dummy.m"; sourceTree = "<group>"; };
+		9D232CB2CCFEC063B68D97301E0840C9 /* Pods-EaseAttributedBuilder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseAttributedBuilder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9DF0DD35344EF1D78818093D7874C7 /* Pods-EaseAttributedBuilder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EaseAttributedBuilder_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A418D641041234385183C51F95319DC5 /* Pods-EaseAttributedBuilder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseAttributedBuilder_Tests-Info.plist"; sourceTree = "<group>"; };
+		CD7DBDE9F3007D7D10ED4530AD756F82 /* EaseAttributedBuilder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EaseAttributedBuilder-prefix.pch"; sourceTree = "<group>"; };
+		D0F6F221633D00A99C520F93385BC500 /* EaseRXBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseRXBuilder.h; path = EaseAttributedBuilder/Classes/EaseRXBuilder.h; sourceTree = "<group>"; };
+		D78DC6A54441082B0706E8B295B3C145 /* EaseAttributedBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EaseAttributedBuilder.m; path = EaseAttributedBuilder/Classes/EaseAttributedBuilder.m; sourceTree = "<group>"; };
+		D7C7EA9D3D3CAABADC9D878CFAA2BD1E /* Pods-EaseAttributedBuilder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EaseAttributedBuilder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E413DA75C903E21A2FC6F5A60643C4B4 /* Pods-EaseAttributedBuilder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EaseAttributedBuilder_Example-Info.plist"; sourceTree = "<group>"; };
+		EEA7223A4067227AEFA699BC682812D9 /* Pods-EaseAttributedBuilder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EaseAttributedBuilder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F178859C736C6F5D24A476DC0BF54451 /* Pods-EaseAttributedBuilder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EaseAttributedBuilder_Example-umbrella.h"; sourceTree = "<group>"; };
+		F1A766BDE37860C70AE53074CE5FDB59 /* EaseRXBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EaseRXBuilder.m; path = EaseAttributedBuilder/Classes/EaseRXBuilder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078C4012CE16743CA7B6F31AD3FAA6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F92361082C0C9C626022B1E54B2B4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DDEF7100D52620ABC3403C901C6D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B1365262AA4CF19B54222634999253 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3810B5F340714E83C7A03E874E2FBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68483FA4002BCF19121808F1A429EFD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1D139D8E273E903433683910285D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09345523F7DE7B8D51942F4F4E0630AF /* EaseAttributedBuilder.framework */,
+				66DF07B5AF48CB30B95B9B7E7DC735CC /* Pods_EaseAttributedBuilder_Example.framework */,
+				2DF178631BBB675ABC4A8B2F0173F962 /* Pods_EaseAttributedBuilder_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D347C4BAE3A59AC78F170C2E886EE6F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E0C5CEE13CD5458DD0419D00C663F /* EaseAttributedBuilder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6E7B458B916B5DC5EE890D491AE2875E /* Pods-EaseAttributedBuilder_Example */ = {
+			isa = PBXGroup;
+			children = (
+				02EEFA486FA16623A33A138262261919 /* Pods-EaseAttributedBuilder_Example.modulemap */,
+				EEA7223A4067227AEFA699BC682812D9 /* Pods-EaseAttributedBuilder_Example-acknowledgements.markdown */,
+				62CFF0017424C6307A03A260BCABF352 /* Pods-EaseAttributedBuilder_Example-acknowledgements.plist */,
+				947AADFA113E355772CCBAE4A73C4161 /* Pods-EaseAttributedBuilder_Example-dummy.m */,
+				D7C7EA9D3D3CAABADC9D878CFAA2BD1E /* Pods-EaseAttributedBuilder_Example-frameworks.sh */,
+				E413DA75C903E21A2FC6F5A60643C4B4 /* Pods-EaseAttributedBuilder_Example-Info.plist */,
+				F178859C736C6F5D24A476DC0BF54451 /* Pods-EaseAttributedBuilder_Example-umbrella.h */,
+				9E9DF0DD35344EF1D78818093D7874C7 /* Pods-EaseAttributedBuilder_Example.debug.xcconfig */,
+				9D232CB2CCFEC063B68D97301E0840C9 /* Pods-EaseAttributedBuilder_Example.release.xcconfig */,
+			);
+			name = "Pods-EaseAttributedBuilder_Example";
+			path = "Target Support Files/Pods-EaseAttributedBuilder_Example";
+			sourceTree = "<group>";
+		};
+		73F31FC1739117F19B67254511D803A4 /* Pods-EaseAttributedBuilder_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92BED2B5FAF67318D7653E2F8DF5F82D /* Pods-EaseAttributedBuilder_Tests.modulemap */,
+				8BC490C38A1712ECE0F541F749C5D03F /* Pods-EaseAttributedBuilder_Tests-acknowledgements.markdown */,
+				206CF11C80B189AF576B50521123F394 /* Pods-EaseAttributedBuilder_Tests-acknowledgements.plist */,
+				4B200D096FD475F2E97CBADACFBCFEE9 /* Pods-EaseAttributedBuilder_Tests-dummy.m */,
+				A418D641041234385183C51F95319DC5 /* Pods-EaseAttributedBuilder_Tests-Info.plist */,
+				1235BADE21136A1118CF9976A2B7BA16 /* Pods-EaseAttributedBuilder_Tests-umbrella.h */,
+				596C58C8F5F201E182830A7B6326B898 /* Pods-EaseAttributedBuilder_Tests.debug.xcconfig */,
+				6F56DF34F2522EAEE7756C6D915CEA09 /* Pods-EaseAttributedBuilder_Tests.release.xcconfig */,
+			);
+			name = "Pods-EaseAttributedBuilder_Tests";
+			path = "Target Support Files/Pods-EaseAttributedBuilder_Tests";
+			sourceTree = "<group>";
+		};
+		8495B024A8382EC5BDF5DAF1AAC95C46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D2FAFBD4BC759159AC11B1B963CB70 /* EaseAttributedBuilder.modulemap */,
+				74D454B0A8C8F34C9E0E7DE54C366E9C /* EaseAttributedBuilder-dummy.m */,
+				1F2B49CAEA05E828A77CBE224E8E8574 /* EaseAttributedBuilder-Info.plist */,
+				CD7DBDE9F3007D7D10ED4530AD756F82 /* EaseAttributedBuilder-prefix.pch */,
+				6CF25FC405071E7543868FBDC44A1CC8 /* EaseAttributedBuilder-umbrella.h */,
+				909315B1C91996B89BFF2789C07CDC2E /* EaseAttributedBuilder.debug.xcconfig */,
+				8A14D53B5C9BB86F87908A51A8560F6C /* EaseAttributedBuilder.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EaseAttributedBuilder";
+			sourceTree = "<group>";
+		};
+		8F6E0C5CEE13CD5458DD0419D00C663F /* EaseAttributedBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3357285366AB2F6D8B4F8683D29A1 /* EaseAttributedBuilder.h */,
+				D78DC6A54441082B0706E8B295B3C145 /* EaseAttributedBuilder.m */,
+				D0F6F221633D00A99C520F93385BC500 /* EaseRXBuilder.h */,
+				F1A766BDE37860C70AE53074CE5FDB59 /* EaseRXBuilder.m */,
+				A53EE8B1BB992D76D411FE0E341EFC13 /* Pod */,
+				8495B024A8382EC5BDF5DAF1AAC95C46 /* Support Files */,
+			);
+			name = EaseAttributedBuilder;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A53EE8B1BB992D76D411FE0E341EFC13 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8CFC0E5C88FC1914656259C7C97C18AE /* EaseAttributedBuilder.podspec */,
+				61D8EC57375DD77011974F27EC7B82B0 /* LICENSE */,
+				6E078CD8B7AAC3D51ADB5AFB8AA4B5FB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A89C14CDF0E68A15B31F580759EB5D43 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E7B458B916B5DC5EE890D491AE2875E /* Pods-EaseAttributedBuilder_Example */,
+				73F31FC1739117F19B67254511D803A4 /* Pods-EaseAttributedBuilder_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6D347C4BAE3A59AC78F170C2E886EE6F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0C1D139D8E273E903433683910285D2A /* Products */,
+				A89C14CDF0E68A15B31F580759EB5D43 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22F06D8AB5FE4F373AE88CDF9F2420AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD33A1D3E9E46C644AB68671645BE9C /* Pods-EaseAttributedBuilder_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623F47A1CDF41471995F8A93AB753AD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F77DDCC22AA1D60E3E3EC65A7DA09 /* Pods-EaseAttributedBuilder_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB743897A7B149D4945B4C81EE838AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF6D5A8575379620B5BB5D9F3497BB9 /* EaseAttributedBuilder-umbrella.h in Headers */,
+				0BE200D9AC36FEA7DEBE3BAFC5BCE11A /* EaseAttributedBuilder.h in Headers */,
+				B04293EE4726875C10A4F317FFB06282 /* EaseRXBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098D14306B63BE320EBF3C23782028F4 /* Pods-EaseAttributedBuilder_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F3CE479213558D35E98458D396E783 /* Build configuration list for PBXNativeTarget "Pods-EaseAttributedBuilder_Example" */;
+			buildPhases = (
+				22F06D8AB5FE4F373AE88CDF9F2420AE /* Headers */,
+				5412D20EE246CE1D7C17C711D199CDC1 /* Sources */,
+				D3810B5F340714E83C7A03E874E2FBC8 /* Frameworks */,
+				E3F2E91E9479BB2F4A812B3EF021CE7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9C0864B060ED875BD9761CBD21567C /* PBXTargetDependency */,
+			);
+			name = "Pods-EaseAttributedBuilder_Example";
+			productName = "Pods-EaseAttributedBuilder_Example";
+			productReference = 66DF07B5AF48CB30B95B9B7E7DC735CC /* Pods_EaseAttributedBuilder_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E558DEDC48967C3D9E5254A2492023B /* EaseAttributedBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6C8D99A9B25B8C5E030405E97391BB /* Build configuration list for PBXNativeTarget "EaseAttributedBuilder" */;
+			buildPhases = (
+				BEB743897A7B149D4945B4C81EE838AD /* Headers */,
+				E6C7633EE8C2571041FEA04A0848780F /* Sources */,
+				078C4012CE16743CA7B6F31AD3FAA6FD /* Frameworks */,
+				F05FC0D39EA3C8228B2543F0B9177F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseAttributedBuilder;
+			productName = EaseAttributedBuilder;
+			productReference = 09345523F7DE7B8D51942F4F4E0630AF /* EaseAttributedBuilder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		958FFEA5868A09A8D9CC8F4C8E2326D8 /* Pods-EaseAttributedBuilder_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EE5C9C0EB36C8006040FC5FEABE940 /* Build configuration list for PBXNativeTarget "Pods-EaseAttributedBuilder_Tests" */;
+			buildPhases = (
+				623F47A1CDF41471995F8A93AB753AD5 /* Headers */,
+				B591181C42036BD2298CE932362E3A2A /* Sources */,
+				09DDEF7100D52620ABC3403C901C6D59 /* Frameworks */,
+				01891597C33FE174F3117639257DC883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1AB051A13A50B2709A09384056DA1CC /* PBXTargetDependency */,
+			);
+			name = "Pods-EaseAttributedBuilder_Tests";
+			productName = "Pods-EaseAttributedBuilder_Tests";
+			productReference = 2DF178631BBB675ABC4A8B2F0173F962 /* Pods_EaseAttributedBuilder_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0C1D139D8E273E903433683910285D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E558DEDC48967C3D9E5254A2492023B /* EaseAttributedBuilder */,
+				098D14306B63BE320EBF3C23782028F4 /* Pods-EaseAttributedBuilder_Example */,
+				958FFEA5868A09A8D9CC8F4C8E2326D8 /* Pods-EaseAttributedBuilder_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01891597C33FE174F3117639257DC883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F2E91E9479BB2F4A812B3EF021CE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05FC0D39EA3C8228B2543F0B9177F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5412D20EE246CE1D7C17C711D199CDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B91767B82E0F7E98DE2CAC053CD9F87 /* Pods-EaseAttributedBuilder_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B591181C42036BD2298CE932362E3A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12540294FA83AD722E53BF7BD7B97684 /* Pods-EaseAttributedBuilder_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C7633EE8C2571041FEA04A0848780F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247A458EFDA157E2DD2CA88364E77BF1 /* EaseAttributedBuilder-dummy.m in Sources */,
+				A747A6F8B176F06A9834DF5C192BF13E /* EaseAttributedBuilder.m in Sources */,
+				587B6B05AC4FF29744E9899273D56471 /* EaseRXBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9C0864B060ED875BD9761CBD21567C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EaseAttributedBuilder;
+			target = 8E558DEDC48967C3D9E5254A2492023B /* EaseAttributedBuilder */;
+			targetProxy = 85BF75036D5323DE15F3F29426CBF611 /* PBXContainerItemProxy */;
+		};
+		D1AB051A13A50B2709A09384056DA1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EaseAttributedBuilder_Example";
+			target = 098D14306B63BE320EBF3C23782028F4 /* Pods-EaseAttributedBuilder_Example */;
+			targetProxy = 620B9DFC0BEAE5C0ECAF1CF6E4C4280D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB256BD907CE30D0F1D4E84F7793F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909315B1C91996B89BFF2789C07CDC2E /* EaseAttributedBuilder.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EaseAttributedBuilder/EaseAttributedBuilder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EaseAttributedBuilder/EaseAttributedBuilder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EaseAttributedBuilder/EaseAttributedBuilder.modulemap";
+				PRODUCT_MODULE_NAME = EaseAttributedBuilder;
+				PRODUCT_NAME = EaseAttributedBuilder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3606D8A8A38CC3AA2B249183111FA460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9DF0DD35344EF1D78818093D7874C7 /* Pods-EaseAttributedBuilder_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Example/Pods-EaseAttributedBuilder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Example/Pods-EaseAttributedBuilder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36B6EEC8BDD9BF8DB6A070E4EDEE80C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D232CB2CCFEC063B68D97301E0840C9 /* Pods-EaseAttributedBuilder_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Example/Pods-EaseAttributedBuilder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Example/Pods-EaseAttributedBuilder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38071D2BC77A00AB066CB60EA0BEEFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596C58C8F5F201E182830A7B6326B898 /* Pods-EaseAttributedBuilder_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Tests/Pods-EaseAttributedBuilder_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Tests/Pods-EaseAttributedBuilder_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		447C42B40D72365E00D0A7FA3E985DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F56DF34F2522EAEE7756C6D915CEA09 /* Pods-EaseAttributedBuilder_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Tests/Pods-EaseAttributedBuilder_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EaseAttributedBuilder_Tests/Pods-EaseAttributedBuilder_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A8982B9535629119970D24697893404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A14D53B5C9BB86F87908A51A8560F6C /* EaseAttributedBuilder.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EaseAttributedBuilder/EaseAttributedBuilder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EaseAttributedBuilder/EaseAttributedBuilder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EaseAttributedBuilder/EaseAttributedBuilder.modulemap";
+				PRODUCT_MODULE_NAME = EaseAttributedBuilder;
+				PRODUCT_NAME = EaseAttributedBuilder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F3CE479213558D35E98458D396E783 /* Build configuration list for PBXNativeTarget "Pods-EaseAttributedBuilder_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3606D8A8A38CC3AA2B249183111FA460 /* Debug */,
+				36B6EEC8BDD9BF8DB6A070E4EDEE80C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EE5C9C0EB36C8006040FC5FEABE940 /* Build configuration list for PBXNativeTarget "Pods-EaseAttributedBuilder_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38071D2BC77A00AB066CB60EA0BEEFB8 /* Debug */,
+				447C42B40D72365E00D0A7FA3E985DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6C8D99A9B25B8C5E030405E97391BB /* Build configuration list for PBXNativeTarget "EaseAttributedBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB256BD907CE30D0F1D4E84F7793F5E /* Debug */,
+				4A8982B9535629119970D24697893404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

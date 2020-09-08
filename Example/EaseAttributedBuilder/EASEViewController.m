@@ -7,6 +7,7 @@
 //
 
 #import "EASEViewController.h"
+#import <EaseAttributedBuilder/EaseAttributedBuilder.h>
 
 @interface EASEViewController ()
 
@@ -17,7 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel * textLabel = [UILabel new];
+    textLabel.attributedText =
+    [[[[EaseAttributedBuilder builderWithDefaultStyle:@{
+        NSForegroundColorAttributeName: UIColor.redColor,
+        NSFontAttributeName: [UIFont systemFontOfSize:17 weight:UIFontWeightLight]
+    }] appendString:@"Hello World~"]
+     appendString:@"make it Ease!" forStyle:@{
+        NSForegroundColorAttributeName: UIColor.orangeColor,
+     }] attributedString];
+    [textLabel sizeToFit];
+    textLabel.center = self.view.center;
+    [self.view addSubview:textLabel];
 }
 
 - (void)didReceiveMemoryWarning

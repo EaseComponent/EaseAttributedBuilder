@@ -1,0 +1,6 @@
+framework module Pods_EaseAttributedBuilder_Tests {
+  umbrella header "Pods-EaseAttributedBuilder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

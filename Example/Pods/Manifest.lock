@@ -1,0 +1,16 @@
+PODS:
+  - EaseAttributedBuilder (0.1.0)
+
+DEPENDENCIES:
+  - EaseAttributedBuilder (from `../`)
+
+EXTERNAL SOURCES:
+  EaseAttributedBuilder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EaseAttributedBuilder: 712256e27b3f06308cddd8b53dadba06b3c44f3c
+
+PODFILE CHECKSUM: fd33a2356ca9e05590ec180bf9189b4ff99a83f5
+
+COCOAPODS: 1.9.3
