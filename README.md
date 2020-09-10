@@ -74,7 +74,7 @@ _innerBuilder = [EaseAttributedBuilder builderWithDefaultStyle:@{
 })];
 ```
 
-如果需要给一个给定的文本中某些字符串设定特殊的样式，可以使用一下api，参数`string`支持正则表达式，内部其实也是使用正则表达式来完成查找匹配的。
+如果需要给一个给定的文本中某些字符串设定特殊的样式，可以使用以下api，参数`string`支持正则表达式，内部其实也是使用正则表达式来完成查找匹配的。
 
 ``` Objective-C
 
